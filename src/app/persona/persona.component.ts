@@ -10,7 +10,7 @@ export class PersonaComponent implements OnInit, OnChanges{
 
     constructor (){
 
-      this.persona = new Persona ("Vale", 1.70, 56);
+      this.persona = new Persona ("Vale", 1.65, 56);
     }
 
     public mostrarPersona(persona: Persona):void{
